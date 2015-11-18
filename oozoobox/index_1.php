@@ -22,6 +22,7 @@ include_once(G5_PATH.'/head.php');
 <?php
 //  최신글
 //주석추가1
+//주석추가2
 $sql = " select bo_table
             from `{$g5['board_table']}` a left join `{$g5['group_table']}` b on (a.gr_id=b.gr_id)
             where a.bo_device <> 'mobile' ";
